@@ -12,7 +12,7 @@ dotenv.config();
 app.use(express.json())
 require("./Database/connect.js")
 
-app.use(require("./router/Upload.js"))
+app.use(require("./router/upload.js"))
 app.use(require("./router/serach.js"))
 
 const Video = require("./model/video.js")
